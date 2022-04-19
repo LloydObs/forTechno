@@ -1,1 +1,1 @@
-print ("Hi test");
+print ("Hi test.");
