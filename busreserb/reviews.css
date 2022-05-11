@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url('images/reviews.jpg');
+	background-size: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.top{
+	background: #5f2332;
+	width: 121.5em;
+	margin: -1.3em;
+}
+
+.top img{
+	width: 200px;
+	position: absolute;
+	margin-left: 2em;
+	margin-top: -2em;
+}
+
+.below_top{
+	background: #7b303c;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+	margin: 0px;
+	margin-top: 2.5em;
+}
+
+.button-1{
+	font-family: 'Inter', sans-serif;
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	margin-right: 2em;
+	margin-top: -0.5em;
+	top: 30px;
+	right: 250px;
+	font-size: 25px;
+	font-weight: bold;
+	border: none;
+	background-color: #5f2332;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-1, a:hover {
+  background-color: none;
+  color: #000000;
+}
+
+.button-2{
+	font-family: 'Inter', sans-serif;
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	margin-top: -0.5em;
+	margin-right: 1em;
+	top: 30px;
+	right: 60px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #5f2332;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-2, a:hover {
+  background-color: none;
+  color: black;
+}
+
+.top h1{
+	color: #fafafa;
+	margin-left: 5em;
+	padding-top: 0.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.top h2{
+	color: #fafafa;
+	margin-left: 7.7em;
+	margin-top: -1em;
+	padding-top: 0.1em;
+	padding-bottom: 1em;
+	font-size: 21px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button-3{
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 135px;
+	left: 300px;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: -0.3em;
+	margin-left: 1em;
+	background-color: #7b303c;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-3, a:hover {
+	background-color: none;
+	color: #000000;
+}
+
+.button-4{
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	top: 135px;
+	left: 500px;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: -0.3em;
+	margin-left: 1em;
+	background-color: #7b303c;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-4, a:hover {
+	background-color: none;
+	color: #000000;
+}
+
+.button-5{
+	width: 220px;
+	height: 40px;
+	position: absolute;
+	top: 135px;
+	left: 850px;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: -0.3em;
+	margin-left: 0.5em;
+	background-color: #7b303c;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-5, a:hover {
+	background-color: none;
+	color: #000000;
+}
+
+.button-6{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top: 135px;
+	left: 1150px;
+	margin-left: 2em;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: -0.3em;
+	background-color: #7b303c;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-6, a:hover {
+	background-color: none;
+	color: #000000;
+}
+
+.button-7{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top: 135px;
+	left: 1350px;
+	margin-left: 4em;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: -0.3em;
+	background-color: #7b303c;
+	border: none;
+	outline: none;
+	color: #F8F4F4;
+}
+
+.button-7, a:hover {
+	background-color: none;
+	color: #000000;
+}
