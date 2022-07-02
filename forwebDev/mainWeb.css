@@ -1,0 +1,94 @@
+/*
+#8EE4AF
+#EDF5E1
+#5CDB95
+#907163
+#379683
+pili ng paletttttttttttttttttttttttttttttttttttttttttttttttte aaaaaaaaaaaaaaaaaaaaaa
+#565a75
+#0f0f1b
+#c6b7be
+#fafbf6
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #0f0f1b;
+}
+
+.center{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.center input[type = "text"],.center input[type = "password"], center button[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f0f1b;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #0f0f1b;
+    border-radius: 24px;
+    transition: .5s;
+}
+.center h1{
+    color: #0f0f1b;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.center input[type = "text"]:focus,.center input[type = "password"]:focus{
+    width: 280px;
+    border-color: #0f0f1b;
+
+}
+.center input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f0f1b;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    background-color: #565a75;
+    border-radius: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+.center input[type = "submit"]:hover{
+    background: #0f0f1b;
+}
+
+/*.back {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+*/
+
+.welcomePic {
+
+    width: 150px;
+    background-blend-mode: multiply;
+    background-color:#565a75 ;
+    
+}
+
+
