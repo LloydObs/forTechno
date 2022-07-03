@@ -22,3 +22,32 @@
 </html>
 
 
+
+
+<?php
+    require "dbConnection.php";
+    session_start();
+    
+    if(isset($_POST['submit'])){
+        
+        $adminUsername = $_POST['adminName'];
+        $adminPassword = $_POST['adminPassword'];
+
+        $query = ("select * from admininfo where adminUsername='".$adminUsername."' and adminPassword = '".$adminPassword."' limit 1");
+        $result = mysqli_query($connectDb, $query);
+        if(mysqli_num_rows($result) === 1){    
+            $row = mysqli_fetch_array($result);
+            if ($row['userType'] == 'admin'){
+                $_SESSION['adminName'] = $row['adminName'];
+                echo "cool gumagana";
+            }elseif
+        }
+            
+        
+        
+    }
+?> 
+
+
+
+
